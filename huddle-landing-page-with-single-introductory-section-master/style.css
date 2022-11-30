@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --Violet: hsl(257, 40%, 49%);
+--Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+body{
+    background-image: url(./images/bg-desktop.svg);
+    background-color:var(--Violet);
+    
+}
+
+.logo1{
+    padding: 50px;
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+ul h1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+ul p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul button{
+    border: none;
+    background-color:white;
+    color: var(--Violet);
+    border-radius: 25px;
+    padding: 20px 75px;
+    box-shadow: 1px 1px solid black;
+    font-size: 15px;
+}
+
+ul button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: var(--Soft-Magenta);
+}
+
+
+.container{
+    display:flex;
+    padding: 5%;
+    font-size: 20px;
+}
+
+.column1{
+       width: 50%;
+}
+
+.column2{
+          width: 50%;
+}
+
+/*
+ol{
+    width: 93px;
+    height: 93px;
+    display:inline-block;
+    list-style-type: none;
+    
+}
+
+
+.facebook{content: url(./images/facebook-svgrepo-com.svg)}
+.twitter{content: url(./images/twitter-svgrepo-com.svg);}
+.instagram{content: url(./images/instagram-svgrepo-com.svg);}
+
+*/
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color:yellowgreen; }
